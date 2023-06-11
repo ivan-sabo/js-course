@@ -3,6 +3,10 @@
 // In JS all numbers are internally represented as
 // floating point numbers (64 base-2 format => binary
 // format)
+//
+// 53 bits are used to store the digits.
+// The rest is used to store the position of decimal point
+// ant the sign.
 
 console.log(23 === 23.0); // true
 
